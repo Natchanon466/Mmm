@@ -1,0 +1,13 @@
+{
+  "name": "microplastic-city",
+  "version": "1.0.0",
+  "description": "Microplastic City: เกมบริหารเงินพิชิตเมืองไมโครพลาสติก (เกมเพื่อการศึกษา)",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node --test",
+    "simulate": "node tools/simulate-balance.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": { "node": ">=18" }
+}
